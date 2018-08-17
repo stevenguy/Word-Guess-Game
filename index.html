@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css'>
+    <link rel='stylesheet' href='../Word-Guess-Game/assets/css/style.css'>
+    <link rel='stylesheet' href='../Word-Guess-Game/assets/css/reset.css'>
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="row">
+            <h1 class="header1">Welcome To Hangman.</h1>
+            <h1 class="header1">Category = 90's Musicians</h1>
+            <h2 class="header2">Can you hang, man?</h2>
+        </div>
+
+        <div class="row">
+        
+            <div class="col l1">
+            </div>
+
+            <div class="col l10">
+                
+                <div class="col l6">
+
+                    <canvas id="stickman"></canvas>
+
+                </div>
+                
+                <div class="col l6">
+
+                    <div class="row">
+
+                        <h5>Lives: <span id="mylives"></span></h5>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col l1">
+            </div>
+
+        </div>  
+
+        <div class="row">
+
+                <h5>Word is:</h5>
+
+        </div>
+
+        <div class="row">
+
+                <h5><span id="placeholder"></span></h5>
+
+        </div>
+        
+        <div class="row">
+
+            <div class="col l1">
+                
+            </div>
+
+            <div class="col l10">
+
+                <div class="row">
+
+                    <h5>Letters Used: </h5>
+                
+                </div>
+
+                <div class="row">
+
+                    <h5><span id="buttons"></span></h5>
+                        
+                </div>
+
+            </div>
+
+            <div class="col l1">
+            </div>        
+
+        </div>
+
+    </div>
+
+  <script src="../Word-Guess-Game/assets/javascript/game.js"></script>
+
+</body>
+</html>
